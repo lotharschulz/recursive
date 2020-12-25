@@ -1,12 +1,12 @@
 package info.lotharschulz.recursive
 
 fun factorial(n: Long) : Long = when {
-        (n == 1L) -> n
+        n == 1L -> n
         else -> n * factorial(n - 1)
 }
 
 tailrec fun tailRecFactorial(n: Long, acc: Long = 1) : Long =  when {
-        n<=1 -> n * acc
+        n == 1L -> n * acc
         else -> tailRecFactorial(n-1, n * acc)
 }
 
