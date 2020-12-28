@@ -2,8 +2,17 @@
 
 ## Typescript
 
-TODO
+```sh
+cd typescript/
+yarn test
+tsc recursive.ts
+node recursive.js
+```
 
 ## Kotlin
 
-TODO
+```sh
+cd kotlin/
+./gradlew test
+./gradlew run
+```

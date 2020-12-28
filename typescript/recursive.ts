@@ -13,4 +13,9 @@ function factorial(n: number):number{
   return acc
 }
 
+const result = factorial(4)
+console.log("result", result)
+const tailRecResult = tailRecFactorial(4)
+console.log("tailRecResult", tailRecResult)
+
 export { tailRecFactorial, factorial }
