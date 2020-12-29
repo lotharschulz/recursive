@@ -1,4 +1,4 @@
-# Recursive Finger Exercise
+# Recursive Finger Exercises
 
 ## Typescript
 
